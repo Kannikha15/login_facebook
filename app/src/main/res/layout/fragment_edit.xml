@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1B1B1B"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Edit">
+
+
+    <TextView
+        android:text = "ชื่อสินค้า : "
+        android:id="@+id/edit_username"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:textColor="#ffffff"
+        android:hint="จำนวนสินค้า"
+        android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="edit"
+            android:id="@+id/sendData"
+            android:layout_width="100dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="delete"
+            android:id="@+id/delData"
+            android:background="#F44336"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

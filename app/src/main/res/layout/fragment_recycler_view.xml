@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/show_list"
+    android:background="#1B1B1B"
+    android:layout_height="match_parent"
+    tools:context=".Recycler_view">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:background="@drawable/stitnch"
+        android:layout_height="150dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyLayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_height="match_parent"/>
+
+
+</FrameLayout>
