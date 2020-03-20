@@ -9,3 +9,5 @@ project
 ![alt text](https://user-images.githubusercontent.com/61577226/77158167-55e6f880-6ad5-11ea-8509-046fe1098fc7.PNG)//Cart
 ![alt text](https://user-images.githubusercontent.com/61577226/77158208-68613200-6ad5-11ea-998d-99f2c163eb0e.PNG)//edit Product
 ![alt text](https://user-images.githubusercontent.com/61577226/77158226-731bc700-6ad5-11ea-96c8-2ff96ac584b0.PNG)//edit Product Delete
+![alt text](https://user-images.githubusercontent.com/61577226/77159128-597b7f00-6ad7-11ea-9071-09b0b4eaf4f8.PNG)//detail product
+
